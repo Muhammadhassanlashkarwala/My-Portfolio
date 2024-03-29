@@ -7,3 +7,18 @@ padding: 0;
 box-sizing: border-box;
 font-family: 'poppins' , sans-serif;
 }
+.Portfolio-container{
+    min-height: 100vh;
+    width: 100%;
+
+}
+.navlist{
+    display: flex;
+    gap: 3.5rem;
+}
+.navlist li{
+    list-style: none;
+}
+.navlist li a{
+    text-decoration: none;
+}
