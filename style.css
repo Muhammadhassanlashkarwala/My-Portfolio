@@ -10,7 +10,7 @@ font-family: 'poppins' , sans-serif;
 .Portfolio-container{
     min-height: 100vh;
     width: 100%;
-
+display: flex;
 }
 .navlist{
     display: flex;
@@ -19,6 +19,7 @@ font-family: 'poppins' , sans-serif;
     width: 100%;
     justify-content: center;
     align-items: center;
+    position: fixed;
 }
 .navlist li{
     list-style: none;
@@ -26,6 +27,7 @@ font-family: 'poppins' , sans-serif;
 .navlist li a{
     text-decoration: none;
     font-size: 1rem;
+    color: #fff;
 }
 .left-container{
     background: #262525;
@@ -36,4 +38,7 @@ font-family: 'poppins' , sans-serif;
     background: #3877ff;
     width: 30%;
     height: 100vh;
+}
+.icons .fa-brands{
+    color: #bbb;
 }
