@@ -15,7 +15,6 @@ font-family: 'poppins' , sans-serif;
 .navlist{
     display: flex;
     gap: 3.5rem;
-    background: red;
     height: 15vh;
     width: 100%;
     justify-content: center;
@@ -26,4 +25,15 @@ font-family: 'poppins' , sans-serif;
 }
 .navlist li a{
     text-decoration: none;
+    font-size: 1rem;
+}
+.left-container{
+    background: #262525;
+    width: 70%;
+    height: 100vh;
+}
+.right-container{
+    background: #3877ff;
+    width: 30%;
+    height: 100vh;
 }
